@@ -25,6 +25,7 @@
     </bean>
 
     <!--响应json字符串-->
+    <!--
     <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" >
         <property name="messageConverters" >
             <list>
@@ -38,6 +39,7 @@
             </list>
         </property>
     </bean>
+    -->
 
     <!--配置文件上传解析器-->
     <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" p:defaultEncoding="UTF-8" >
